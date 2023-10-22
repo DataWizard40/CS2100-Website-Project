@@ -1,4 +1,4 @@
-#heroimage { height: 600px; background-color: 13d8ec; background-image: url(heroimage.jpg); background-size: cover; background-repeat: no-repeat; object-fit: cover; }
+#heroimage { height: 600px; background-color: #13d8ec; background-image: url(heroimage.jpg); background-size: cover; background-repeat: no-repeat; object-fit: cover; }
 body { color: #000000; background-color: #13d8ec; font-family: Arial; }
 header { background-color: #1f38e0; padding-top: 5px; padding-bottom: 5px; padding-left: 105px; }
 header a:link { text-decoration: none; }
