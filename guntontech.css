@@ -29,7 +29,7 @@ img { padding-left: 10px; padding-right: 10px; }
 #desktop { display: none }
 * { box-sizing: border-box; }
 form { display: flex; flex-direction: column; padding-left: 1em; width: 80%; }
-input { margin-bottom: .5em; width: 15%; }
+input { margin-bottom: .5em; width: 200px; }
 @media (min-width: 600px) {
 	header { text-align: center; padding-left: 0; }
 	h1 { font-size: 3em; }
