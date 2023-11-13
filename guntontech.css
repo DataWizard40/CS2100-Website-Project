@@ -15,12 +15,15 @@ h3 { color: #000000; padding-left: 3em; padding-right: 2em; }
 p { padding-left: 3em; padding-right: 2em; }
 div { padding-left: 3em; padding-right: 2em; }
 ul { padding-left: 3em; padding-right: 2em; }
-nav { text-align: center; font-size: 1.5em; }
+nav { text-align: center; font-size: 1.5em; position: relative; }
 nav a:link { text-decoration: none; color: #FFFFFF; }
 nav a:visited { text-decoration: none; color: #FFFFFF; }
 nav a:hover { text-decoration: none; color: #000000; }
+nav li:hover ul { display: block; }
 nav ul { list-style-type: none; padding: 0; display: flex; flex-direction: column; margin: 0; font-size: 1.25em; }
 nav li { padding-bottom: 0.5em; padding-top: 0.5em; padding-left: 1em; padding-right: 1em; width: 100%; border-bottom: 1px solid #000000;}
+nav ul ul { position: absolute; background-color: #1f38e0; padding: 0; text-align: left; display: none; }
+nav ul ul li { border: 1px solid #00005D; display: block; width: 8em; padding-left: 1em; margin-left: 0; }
 main { padding-left: 0; padding-right: 0; padding-bottom: 2em; padding-top: 0; background-color: #13d8ec; }
 footer { background-color: #13d8ec; font-size: .60em; font-style: italic; text-align: center; padding: 1em; }
 img { padding-left: 10px; padding-right: 10px; }
