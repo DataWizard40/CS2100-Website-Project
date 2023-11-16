@@ -27,6 +27,8 @@ nav ul ul li { border: 1px solid #00005D; display: block; width: 8em; padding-le
 main { padding-left: 0; padding-right: 0; padding-bottom: 2em; padding-top: 0; background-color: #13d8ec; }
 footer { background-color: #13d8ec; font-size: .60em; font-style: italic; text-align: center; padding: 1em; }
 img { padding-left: 10px; padding-right: 10px; }
+table { border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #000; padding: 12px; text-align: center; }
 #wrapper { background-color: #13d8ec; padding: 0; }
 #mobile { display: inline; }
 #desktop { display: none }
